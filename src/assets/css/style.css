@@ -1,0 +1,28 @@
+*,
+* ::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+}
+:root {
+    --nav-color: red;
+  }
+
+
+:is(.navbar, .offcanvas, footer) {
+    background-color: black;
+}
+:is(.nav-link) {
+    color: white;
+}
+img[alt="logo"] {
+    width: 7rem;
+    aspect-ratio: 1/1;
+    object-position: left;
+}
